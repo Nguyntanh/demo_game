@@ -5,7 +5,7 @@ public class PlayerHealth : Health
     protected override void Die()
     {
         base.Die();
-        Debug.Log("Player đie");
+        Debug.Log("Player died");
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
