@@ -105,3 +105,5 @@ Thumbs.db
 .vscode/
 /[Aa]ssets/StreamingAssets/
 /[Aa]ssets/Plugins/Android/
+BuildAndroid/
+BuildPC/
