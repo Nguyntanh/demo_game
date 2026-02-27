@@ -233,7 +233,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 347864134}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -282,7 +282,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -298,7 +298,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.024, y: 1.024}
   m_EdgeRadius: 0
---- !u!114 &347864137
+--- !u!114 &347864139
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -310,8 +310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bca633b10c80acd42b17cbc8aecdf4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  explosionPrefab: {fileID: 5415277026356932455, guid: d47a2a5d77782c641b489a4ef4f24739,
-    type: 3}
+  explosionPrefab: {fileID: 0}
 --- !u!1 &753275409 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 360260742239343423, guid: 78578e4a1c2920f41ad00aa43873c9ff,
@@ -326,7 +325,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753275409}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -375,7 +374,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -403,8 +402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bca633b10c80acd42b17cbc8aecdf4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  explosionPrefab: {fileID: 5415277026356932455, guid: d47a2a5d77782c641b489a4ef4f24739,
-    type: 3}
+  explosionPrefab: {fileID: 0}
 --- !u!1 &829482845 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 360260742239343423, guid: 78578e4a1c2920f41ad00aa43873c9ff,
@@ -419,7 +417,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829482845}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -468,7 +466,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -496,8 +494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bca633b10c80acd42b17cbc8aecdf4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  explosionPrefab: {fileID: 5415277026356932455, guid: d47a2a5d77782c641b489a4ef4f24739,
-    type: 3}
+  explosionPrefab: {fileID: 0}
 --- !u!1 &1244477009
 GameObject:
   m_ObjectHideFlags: 0
@@ -834,6 +831,79 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1694182928}
   m_PrefabAsset: {fileID: 0}
+--- !u!50 &1610284866
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610284861}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &1610284867
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610284861}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.64, y: 0.64}
+  m_EdgeRadius: 0
 --- !u!1001 &1682909338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -992,6 +1062,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6452349025966254166, guid: d9d9f8bf4be3b3e44843947102480d46,
+        type: 3}
+      propertyPath: flySpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6505666835841874220, guid: d9d9f8bf4be3b3e44843947102480d46,
         type: 3}
       propertyPath: m_Name
@@ -999,13 +1074,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6505666835841874220, guid: d9d9f8bf4be3b3e44843947102480d46,
         type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6505666835841874220, guid: d9d9f8bf4be3b3e44843947102480d46,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1610284867}
+    - targetCorrespondingSourceObject: {fileID: 6505666835841874220, guid: d9d9f8bf4be3b3e44843947102480d46,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1610284866}
   m_SourcePrefab: {fileID: 100100000, guid: d9d9f8bf4be3b3e44843947102480d46, type: 3}
 --- !u!1001 &1798795001
 PrefabInstance:
@@ -1121,7 +1205,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096554450}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1170,7 +1254,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1198,8 +1282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bca633b10c80acd42b17cbc8aecdf4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  explosionPrefab: {fileID: 5415277026356932455, guid: d47a2a5d77782c641b489a4ef4f24739,
-    type: 3}
+  explosionPrefab: {fileID: 0}
 --- !u!1001 &1524761360459596394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1298,7 +1381,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 360260742239343423, guid: 78578e4a1c2920f41ad00aa43873c9ff,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 347864137}
+      addedObject: {fileID: 347864139}
   m_SourcePrefab: {fileID: 100100000, guid: 78578e4a1c2920f41ad00aa43873c9ff, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
